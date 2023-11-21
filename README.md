@@ -17,7 +17,7 @@ At the end of the course, through assignments, discussions, activities and asses
 
 ## Grading Information and Breakdown
 
-###100 Total points  
+### 100 Total points  
 
 - **30% Class participation:** includes attendance and participation (30 points total)
 
