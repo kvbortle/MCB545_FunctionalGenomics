@@ -17,6 +17,8 @@ At the end of the course, through assignments, discussions, activities and asses
 
 ## Grading Information and Breakdown
 
+###100 Total points  
+
 - **30% Class participation:** includes attendance and participation (30 points total)
 
 - **15% Graded homework assignments** (15 points total)
@@ -25,7 +27,6 @@ At the end of the course, through assignments, discussions, activities and asses
 
 - **25% Final project assignment** (25 points total)  
   
-100 Total points  
 
 Grade format:  
     97–100 (A+)    93–96 (A)    90–92 (A-)       
