@@ -17,15 +17,18 @@ At the end of the course, through assignments, discussions, activities and asses
 
 ## Grading Information and Breakdown
 
-30% Class participation: includes attendance and participation (30 points total)
-15% Graded homework assignments (15 points total)
-30% Graded project assignments/presentations (2 total, 15 points each)
-25% Final project assignment (25 points total)
+- **30% Class participation:** includes attendance and participation (30 points total)
 
-100 Total points
-Grade format 
-97–100% (A+)    93–96% (A)    90–92%  (A-)    
-87–89%  (B+)    83–86% (B)    80–82%  (B-)
-77–79%  (C+)    73–76% (C)    70–72%  (C-)
-67–69%  (D+)    63–66% (D)    60–62%  (D-)
-0–59%   (F)
+- **15% Graded homework assignments** (15 points total)
+
+- **30% Graded project assignments/presentations** (2 total, 15 points each)
+
+- **25% Final project assignment** (25 points total)
+
+- 100 Total points
+- Grade format 
+- 97–100% (A+)    93–96% (A)    90–92%  (A-)    
+- 87–89%  (B+)    83–86% (B)    80–82%  (B-)
+- 77–79%  (C+)    73–76% (C)    70–72%  (C-)
+- 67–69%  (D+)    63–66% (D)    60–62%  (D-)
+- 0–59%   (F)
