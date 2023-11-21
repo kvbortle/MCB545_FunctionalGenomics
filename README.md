@@ -7,12 +7,12 @@ This course introduces the experimental and analytical foundations of functional
 ## Learning Objectives
 
 At the end of the course, through assignments, discussions, activities and assessments, students will be able to:
-•    Understand basic principles of modern functional genomics methods and current sequencing approaches 
-•    Navigate and utilize a high-performance computing (HPC) cluster environment
-•    Apply data processing and quality control pipelines to evaluate high-throughput sequencing data 
-•    Perform computational analysis of sequencing-based genomic assays (RNA-seq, ChIP-seq, eCLIP, etc.). 
-•    Interpret common data visualization techniques and apply these approaches using R 
-•    Integrate multi-omic data to generate hypotheses related to the regulation and function of a given gene(s) of interest.
+- Understand basic principles of modern functional genomics methods and current sequencing approaches 
+- Navigate and utilize a high-performance computing (HPC) cluster environment
+- Apply data processing and quality control pipelines to evaluate high-throughput sequencing data 
+- Perform computational analysis of sequencing-based genomic assays (RNA-seq, ChIP-seq, eCLIP, etc.). 
+- Interpret common data visualization techniques and apply these approaches using R 
+- Integrate multi-omic data to generate hypotheses related to the regulation and function of a given gene(s) of interest.
 
 
 ## Grading Information and Breakdown
