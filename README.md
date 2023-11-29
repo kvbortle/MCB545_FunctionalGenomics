@@ -2,7 +2,7 @@
 
 ## MCB545 Course Overview
 
-This course introduces the experimental and analytical foundations of functional genomics, tailored to experimental biologists who are interested in using high-throughput sequencing technologies to analyze function in animal genomes. The overarching structure of this course tasks students with exploring the regulation and function of a specific DNA/RNA-binding protein (DRBP) through analysis of multiple genomic assays. Students are tasked with retrieving publicly available sequencing data, applying standard quality control and processing pipelines in a high-performance computing environment, and executing differential and integrative data analyses through programming in R. This course combines lectures, which cover basic principles (e.g. genome assembly, gene/transcript annotation, functional genomic methods, statistics for genomic data), with in-class programming and assignments. Students present updates at specific intervals during the semester and submit a written synthesis of their findings at the conclusion of the course.
+This course introduces the experimental and analytical foundations of functional genomics, tailored to experimental biologists who are interested in using high-throughput sequencing technologies to analyze function in animal genomes. The overarching structure of this course tasks students with exploring the regulation and function of a specific RNA-binding protein (RBP) through analysis of multiple genomic assays. Students are tasked with retrieving publicly available sequencing data, applying standard quality control and processing pipelines in a high-performance computing environment, and executing differential and integrative data analyses through programming in R. This course combines lectures, which cover basic principles (e.g. genome assembly, gene/transcript annotation, functional genomic methods, statistics for genomic data), with in-class programming and assignments. Students present updates at specific intervals during the semester and submit a written synthesis of their findings at the conclusion of the course.
 
 ## Learning Objectives
 
@@ -10,9 +10,9 @@ At the end of the course, through assignments, discussions, activities and asses
 - Understand basic principles of modern functional genomics methods and current sequencing approaches 
 - Navigate and utilize a high-performance computing (HPC) cluster environment
 - Apply data processing and quality control pipelines to evaluate high-throughput sequencing data 
-- Perform computational analysis of sequencing-based genomic assays (RNA-seq, ChIP-seq, eCLIP, etc.). 
+- Perform computational analysis of sequencing-based genomic assays (RNA-seq, eCLIP-seq, and others). 
 - Interpret common data visualization techniques and apply these approaches using R 
-- Integrate multi-omic data to generate hypotheses related to the regulation and function of a given gene(s) of interest.
+- Integrate multi-omic data to generate hypotheses related to the regulation and function of a specific gene of interest.
 
 
 ## Grading Information and Breakdown
