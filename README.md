@@ -9,10 +9,9 @@ This course introduces the experimental and analytical foundations of functional
 
 At the end of the course, through assignments, discussions, activities and assessments, students will be able to:
 - Understand basic principles of modern functional genomics methods and current sequencing approaches 
-- Navigate and utilize a high-performance computing (HPC) cluster environment
-- Apply data processing and quality control pipelines to evaluate high-throughput sequencing data 
-- Perform computational analysis of sequencing-based genomic assays (RNA-seq, eCLIP-seq, and others). 
+- Perform computational analysis of sequencing-based genomic assays (RNA-seq, eCLIP, and others)
 - Interpret common data visualization techniques and apply these approaches using R 
+- Navigate and utilize a high-performance computing (HPC) cluster environment
 - Integrate multi-omic data to generate hypotheses related to the regulation and function of a specific gene of interest.
 
 
