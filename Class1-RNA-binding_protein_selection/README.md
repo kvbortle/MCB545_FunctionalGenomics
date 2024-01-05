@@ -1,4 +1,4 @@
- # <img src="RBP_Data_Overview.png" width="1200px">
+ # <img src="Images/RBP_Data_Overview.jpg" width="1200px">
 
 ## RNA-binding protein selection
 
