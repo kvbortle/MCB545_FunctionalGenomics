@@ -1,0 +1,331 @@
+{
+	"version": "2.15.5",
+	"showSampleNames": false,
+	"reference": {
+		"id": "hg38",
+		"name": "Human (GRCh38/hg38)",
+		"fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/seq/hg38/hg38.fa",
+		"indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/seq/hg38/hg38.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/annotations/cytoBandIdeo.txt.gz",
+		"aliasURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/hg38_alias.tab",
+		"chromosomeOrder": "chr1, chr2, chr3, chr4, chr5, chr6, chr7, chr8, chr9, chr10, chr11, chr12, chr13, chr14, chr15, chr16, chr17, chr18, chr19, chr20, chr21, chr22, chrX, chrY"
+	},
+	"locus": "chr6:136,183,969-136,361,376",
+	"gtexSelections": {
+		"chr6:136,183,969-136,361,376": {
+			"gene": "BCLAF1",
+			"snp": null
+		}
+	},
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"name": "Homo sapiens K562 HiC",
+			"url": "https://www.encodeproject.org/files/ENCFF256ZMD/@@download/ENCFF256ZMD.bedpe.gz",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "HiC",
+				"Target": "",
+				"BioRep": "1,2",
+				"TechRep": "1_1,1_2,2_1,2_2,2_3,2_5,2_6",
+				"OutputType": "loops",
+				"Format": "bedpe",
+				"Lab": "Erez Aiden, Baylor",
+				"Accession": "ENCFF256ZMD",
+				"Experiment": "ENCSR479XDG"
+			},
+			"format": "bedpe",
+			"type": "interact",
+			"color": "#004a88",
+			"theta": 0.49094991079402894,
+			"order": 4
+		},
+		{
+			"name": "Homo sapiens K562 ATAC-seq",
+			"url": "https://www.encodeproject.org/files/ENCFF137KFY/@@download/ENCFF137KFY.bigWig",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ATAC-seq",
+				"Target": "",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Will Greenleaf, Stanford",
+				"Accession": "ENCFF137KFY",
+				"Experiment": "ENCSR859USB"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#004a88",
+			"order": 5
+		},
+		{
+			"name": "Homo sapiens K562 CTCF ",
+			"url": "https://www.encodeproject.org/files/ENCFF336UPT/@@download/ENCFF336UPT.bigWig",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "CTCF ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Michael Snyder, Stanford",
+				"Accession": "ENCFF336UPT",
+				"Experiment": "ENCSR000EGM"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#004a88",
+			"order": 6
+		},
+		{
+			"name": "Homo sapiens K562 H3K4me1 ",
+			"url": "https://www.encodeproject.org/files/ENCFF457URZ/@@download/ENCFF457URZ.bigWig",
+			"color": "#004a88",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K4me1 ",
+				"BioRep": "1,2,3",
+				"TechRep": "1_1,2_1,3_1,3_2",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF457URZ",
+				"Experiment": "ENCSR000AKS"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"order": 9
+		},
+		{
+			"name": "Homo sapiens K562 H3K4me2 ",
+			"url": "https://www.encodeproject.org/files/ENCFF523HCI/@@download/ENCFF523HCI.bigWig",
+			"color": "#004a88",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K4me2 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF523HCI",
+				"Experiment": "ENCSR000AKT"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"order": 20
+		},
+		{
+			"name": "Homo sapiens K562 H3K4me3 ",
+			"url": "https://www.encodeproject.org/files/ENCFF071GML/@@download/ENCFF071GML.bigWig",
+			"color": "#004a88",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K4me3 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "John Stamatoyannopoulos, UW",
+				"Accession": "ENCFF071GML",
+				"Experiment": "ENCSR000DWD"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"order": 21
+		},
+		{
+			"name": "Homo sapiens K562 H3K27ac ",
+			"url": "https://www.encodeproject.org/files/ENCFF465GBD/@@download/ENCFF465GBD.bigWig",
+			"color": "#004a88",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K27ac ",
+				"BioRep": "1,2,3",
+				"TechRep": "1_1,2_1,3_1,3_2",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF465GBD",
+				"Experiment": "ENCSR000AKP"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"order": 22
+		},
+		{
+			"name": "Refseq Genes",
+			"format": "refgene",
+			"url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
+			"indexed": false,
+			"removable": false,
+			"order": 23,
+			"infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
+			"type": "annotation",
+			"height": 155,
+			"color": "#000000",
+			"altColor": "#000000",
+			"logScale": true
+		},
+		{
+			"name": "Homo sapiens HepG2 H3K27ac ",
+			"url": "https://www.encodeproject.org/files/ENCFF493VUL/@@download/ENCFF493VUL.bigWig",
+			"color": "#891648",
+			"metadata": {
+				"Biosample": "Homo sapiens HepG2",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K27ac ",
+				"BioRep": "1,2,3",
+				"TechRep": "1_1,2_1,3_1,3_2",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF493VUL",
+				"Experiment": "ENCSR000AMO"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": true,
+			"order": 24
+		},
+		{
+			"name": "Homo sapiens HepG2 H3K4me3 ",
+			"url": "https://www.encodeproject.org/files/ENCFF219ZOU/@@download/ENCFF219ZOU.bigWig",
+			"color": "#891648",
+			"metadata": {
+				"Biosample": "Homo sapiens HepG2",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K4me3 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF219ZOU",
+				"Experiment": "ENCSR000AMP"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": true,
+			"order": 25
+		},
+		{
+			"name": "Homo sapiens HepG2 H3K4me2 ",
+			"url": "https://www.encodeproject.org/files/ENCFF767KKA/@@download/ENCFF767KKA.bigWig",
+			"color": "#891648",
+			"metadata": {
+				"Biosample": "Homo sapiens HepG2",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K4me2 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF767KKA",
+				"Experiment": "ENCSR000AMC"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": true,
+			"order": 26
+		},
+		{
+			"name": "Homo sapiens HepG2 H3K4me1 ",
+			"url": "https://www.encodeproject.org/files/ENCFF470RYT/@@download/ENCFF470RYT.bigWig",
+			"color": "#891648",
+			"metadata": {
+				"Biosample": "Homo sapiens HepG2",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K4me1 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF470RYT",
+				"Experiment": "ENCSR000APV"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": true,
+			"order": 28
+		},
+		{
+			"name": "Homo sapiens HepG2 CTCF ",
+			"url": "https://www.encodeproject.org/files/ENCFF582JVP/@@download/ENCFF582JVP.bigWig",
+			"metadata": {
+				"Biosample": "Homo sapiens HepG2",
+				"AssayType": "ChIP-seq",
+				"Target": "CTCF ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Richard Myers, HAIB",
+				"Accession": "ENCFF582JVP",
+				"Experiment": "ENCSR000BIE"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891648",
+			"flipAxis": true,
+			"order": 78
+		},
+		{
+			"name": "Homo sapiens HepG2 ATAC-seq",
+			"url": "https://www.encodeproject.org/files/ENCFF285FQS/@@download/ENCFF285FQS.bigWig",
+			"metadata": {
+				"Biosample": "Homo sapiens HepG2",
+				"AssayType": "ATAC-seq",
+				"Target": "",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "signal p-value",
+				"Format": "bigWig",
+				"Lab": "Michael Snyder, Stanford",
+				"Accession": "ENCFF285FQS",
+				"Experiment": "ENCSR042AWH"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891648",
+			"flipAxis": true,
+			"order": 79
+		},
+		{
+			"name": "Homo sapiens HepG2 HiC",
+			"url": "https://www.encodeproject.org/files/ENCFF264RQT/@@download/ENCFF264RQT.bedpe.gz",
+			"metadata": {
+				"Biosample": "Homo sapiens HepG2",
+				"AssayType": "HiC",
+				"Target": "",
+				"BioRep": "1",
+				"TechRep": "1_1,1_2,1_3",
+				"OutputType": "loops",
+				"Format": "bedpe",
+				"Lab": "Erez Aiden, Baylor",
+				"Accession": "ENCFF264RQT",
+				"Experiment": "ENCSR888DEJ"
+			},
+			"format": "bedpe",
+			"type": "interact",
+			"color": "#891648",
+			"altColor": "rgb(0, 0, 150)",
+			"theta": 0.49094991079402894,
+			"arcOrientation": false,
+			"order": 80
+		}
+	]
+}
