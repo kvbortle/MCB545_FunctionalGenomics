@@ -17,7 +17,8 @@ At the end of the course, through assignments, discussions, activities and asses
 
 ### 100 Total points  
 
-- **20% Class participation:** includes attendance and participation (20 points total) 40% Graded homework assignments (40 points total, 10 points each)
+- **20% Class participation:** includes attendance and participation (20 points total) 
+- **40% Graded homework assignments** (40 points total, 10 points each)
 - **15% Graded Midterm Exam** (15 points total)
 - **25% Final project assignment** (25 points total)
 
