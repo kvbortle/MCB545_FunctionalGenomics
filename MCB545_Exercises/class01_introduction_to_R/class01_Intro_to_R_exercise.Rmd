@@ -138,7 +138,9 @@ Often, the first step in data analysis is importing data from external sources. 
 The basic syntax of `read.delim()` is:
 
 ```{r}
-# typically you will retrieve files on your local computer, here we want to visit the R proficiency poll results:
+# typically you will retrieve files on your local computer,
+# however, for this course, we will often retrieve files from the course Github page:
+# here we will explore a self-reported R proficiency poll by last year's MCB545 cohort:
 R_poll = read.delim("https://github.com/kvbortle/MCB545_FunctionalGenomics/raw/refs/heads/main/MCB545_Exercises/class01_introduction_to_R/R_proficiency_poll_SP24.txt")
 ```
 
