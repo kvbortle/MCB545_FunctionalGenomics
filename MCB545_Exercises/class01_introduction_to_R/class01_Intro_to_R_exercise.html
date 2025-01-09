@@ -9,10 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content=" " />
+<meta name="author" content="Kevin Van Bortle" />
 
 
-<title>  MCB545 Class #1: Intro to R and Rstudio    Exercise - Getting Started</title>
+<title>MCB545 Class #1: Intro to R and Rstudio</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -1484,10 +1484,10 @@ border-radius: 0px;
 
 
 
-<h1 class="title toc-ignore"><br> MCB545 Class #1: Intro to R and
-Rstudio <br> <sub> <em>Exercise - Getting Started</em></h1>
-<h3 class="subtitle"><br></h3>
-<h4 class="author"><br></h4>
+<h1 class="title toc-ignore">MCB545 Class #1: Intro to R and
+Rstudio</h1>
+<h3 class="subtitle">Exercise - Getting Started</h3>
+<h4 class="author">Kevin Van Bortle</h4>
 
 </div>
 
@@ -1541,7 +1541,7 @@ generated that includes both content as well as the output of any
 embedded R code chunks within the document. Think of this document as a
 report for each of your assignments.</p>
 <p>Code chunks are embedded in Markdown files, like this:</p>
-<pre class="r"><code>knitr::opts_chunk$set(echo = TRUE)</code></pre>
+<pre class="r"><code># empty code chunk</code></pre>
 <p>Purpose of Triple Backticks: In Markdown and R Markdown, triple
 backticks are used to denote the start and end of a code block. Anything
 written between these backticks is treated as code and is formatted
@@ -1562,10 +1562,8 @@ when you want to refer to a piece of code within a line of text, like
 mentioning a variable <code>x</code> or a function
 <code>sum()</code>.</p>
 <p>Above, we created a chunk of R code by specifying the programming
-language as R. We also added a title to the chunk (“Intro to Knitr”).
-<em>Note: Do not worry about understanding the code here yet, which is
-simply setting an option to include code chunks in the final
-output</em></p>
+language as R. We also added a title to the chunk (“Intro to
+Knitr”).</p>
 <hr />
 </div>
 </div>
@@ -1667,7 +1665,7 @@ function referenced above to learn more about this function)</p>
 <div id="read.delim-for-importing-tab-delimited-files" class="section level3">
 <h3>read.delim() for importing tab-delimited files</h3>
 <p>The basic syntax of <code>read.delim()</code> is:</p>
-<pre class="r"><code># typically you will retrieve files on your local computer, here we want to visit the R proficiency poll results:
+<pre class="r"><code># typically you will retrieve files on your local computer, here we want to visit the R proficiency poll results, which are available on the course GitHub page:
 R_poll = read.delim(&quot;https://github.com/kvbortle/MCB545_FunctionalGenomics/raw/refs/heads/main/MCB545_Exercises/class01_introduction_to_R/R_proficiency_poll_SP24.txt&quot;)</code></pre>
 <p>Ok, we just imported a tab-delimited file, how do we explore what’s
 in the file?</p>
@@ -1807,7 +1805,7 @@ structures, in which you can select specific entries:</em></p>
 print(tmp)</code></pre>
 <pre><code>##  [1] 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0</code></pre>
 <pre class="r"><code>tmp = tmp[20]
-# What did we do here? We&#39;ve selected the 7th entry in a 1-dimensional vector. A comma will not work
+# What did we do here? We&#39;ve selected the 20th entry in a 1-dimensional vector. A comma will not work
 print(tmp)</code></pre>
 <pre><code>## [1] 1</code></pre>
 <p>We can also combine brackets with conditions:</p>

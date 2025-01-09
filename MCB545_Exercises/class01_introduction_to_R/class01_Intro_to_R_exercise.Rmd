@@ -1,14 +1,12 @@
 ---
-title: " <br> MCB545 Class #1: Intro to R and Rstudio <br> <sub> *Exercise - Getting Started*"
-subtitle: "<br> "
-author: "<br>"
+title: "MCB545 Class #1: Intro to R and Rstudio"
+subtitle: "Exercise - Getting Started"
+author: "Kevin Van Bortle"
 output: 
   html_document: 
     toc: true
     toc_float: true
 ---
-
-
 
 ------------------------------------------------------------------------
 
@@ -42,8 +40,8 @@ When you click the **Knit** button a document will be generated that includes bo
 
 Code chunks are embedded in Markdown files, like this:
 
-```{r intro to knitr}
-knitr::opts_chunk$set(echo = TRUE)
+```{r intro}
+# empty code chunk
 ```
 
 Purpose of Triple Backticks: In Markdown and R Markdown, triple backticks are used to denote the start and end of a code block. Anything written between these backticks is treated as code and is formatted differently from the rest of the text. This is crucial for readability and clarity, especially when mixing narrative text with code snippets.
@@ -54,7 +52,7 @@ The triple backticks in R Markdown are followed by curly braces {r} to indicate 
 
 While triple backticks are used for code blocks (larger sections of code), single backticks are used for inline code. Inline code is used when you want to refer to a piece of code within a line of text, like mentioning a variable `x` or a function `sum()`.
 
-Above, we created a chunk of R code by specifying the programming language as R. We also added a title to the chunk ("Intro to Knitr"). *Note: Do not worry about understanding the code here yet, which is simply setting an option to include code chunks in the final output*
+Above, we created a chunk of R code by specifying the programming language as R. We also added a title to the chunk ("Intro to Knitr"). 
 
 ------------------------------------------------------------------------
 
@@ -72,7 +70,7 @@ y <- "Genomics is fun!"
 
 In R, a comment is created by putting a `#` symbol at the beginning of the line. Everything following the `#` on that line is treated as a comment.Comments are non-executable, which means the R interpreter ignores them when running the code. They are purely for human understanding.
 
-In R, we use the `<-` symbol to assign values to variables. Think of it as an arrow pointing the value to the variable. This is how we store values in variables, allowing us to use and manipulate them later in our code. Although you might also see `=`, the `<-` is the traditional R way of assigning values. (Forgive me, you will see that I use `=`  )
+In R, we use the `<-` symbol to assign values to variables. Think of it as an arrow pointing the value to the variable. This is how we store values in variables, allowing us to use and manipulate them later in our code. Although you might also see `=`, the `<-` is the traditional R way of assigning values. (Forgive me, you will see that I use `=` )
 
 A variable in R is created with a name (x, and y, above), which is a way to identify the stored data. The name can consist of letters, numbers, dots (.), and underscores (\_), but it must start with a letter or a dot not followed by a number. Case sensitivity is important in R, so Var, var, and VAR would be considered different variables.
 
@@ -138,9 +136,7 @@ Often, the first step in data analysis is importing data from external sources. 
 The basic syntax of `read.delim()` is:
 
 ```{r}
-# typically you will retrieve files on your local computer,
-# however, for this course, we will often retrieve files from the course Github page:
-# here we will explore a self-reported R proficiency poll by last year's MCB545 cohort:
+# typically you will retrieve files on your local computer, here we want to visit the R proficiency poll results, which are available on the course GitHub page:
 R_poll = read.delim("https://github.com/kvbortle/MCB545_FunctionalGenomics/raw/refs/heads/main/MCB545_Exercises/class01_introduction_to_R/R_proficiency_poll_SP24.txt")
 ```
 
@@ -235,7 +231,7 @@ tmp = R_poll[,6]
 # What did we do here? we've selected column 6, now tmp is a 1-dimensional vector
 print(tmp)
 tmp = tmp[20]
-# What did we do here? We've selected the 7th entry in a 1-dimensional vector. A comma will not work
+# What did we do here? We've selected the 20th entry in a 1-dimensional vector. A comma will not work
 print(tmp)
 ```
 
@@ -286,6 +282,4 @@ BiocManager::install()
 
 This code checks if BiocManager is installed (the package used to install Bioconductor packages) and installs it if it's not already present. Then, it uses BiocManager::install() to set up Bioconductor.Once Bioconductor is set up, you can install individual packages using BiocManager::install().
 
-
-<br>
-<br>
+<br> <br>
