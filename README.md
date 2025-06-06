@@ -1,4 +1,4 @@
- # <img src="Images/MCB545-logo.png" width="1200px">
+ # <img src="Images/MCB545-logo.png" width="1000px">
 
 ## MCB545 Course Overview
 
